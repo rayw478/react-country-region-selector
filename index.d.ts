@@ -124,6 +124,13 @@ export interface CountryDropdownProps<T = Element> {
    * Default value: false
    */
   disabled?: boolean;
+
+  /**
+   * Makes the country field required.
+   *
+   * Default value: false
+   */
+  required?: boolean;
 }
 
 export class CountryDropdown extends React.Component<CountryDropdownProps> {}
@@ -246,6 +253,13 @@ export interface RegionDropdownProps<T = Element> {
    * Default value: false
    */
   disabled?: boolean;
+
+  /**
+   * Makes the region field required.
+   *
+   * Default value: false
+   */
+  required?: boolean;
 
   /**
    * Appends a list of string to the every region dropdown,
