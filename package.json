@@ -21,7 +21,6 @@
     "test:watch": "react-scripts test --env=jsdom",
     "build": "rollup -c --config-countries=CA,US,AT,AU,BE,DK,DE,FI,FR,GB,IE,IT,NL,NZ,NO,SE,CH",
     "start": "rollup -c -w",
-    "prepare": "npm run build",
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
